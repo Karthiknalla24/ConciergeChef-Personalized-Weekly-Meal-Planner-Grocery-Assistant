@@ -1,0 +1,104 @@
+{
+  "users": {
+    "alice@example.com": {
+      "preferences": {
+        "diet": "vegetarian"
+      },
+      "pantry": [
+        "rice",
+        "canned beans",
+        "tomato"
+      ],
+      "last_plan": {
+        "plan": [
+          {
+            "id": "r1",
+            "title": "Beans & Rice Bowl",
+            "ingredients": [
+              "rice",
+              "canned beans",
+              "tomato"
+            ],
+            "estimated_cost": 4.4
+          },
+          {
+            "id": "r2",
+            "title": "Tomato Pasta",
+            "ingredients": [
+              "pasta",
+              "tomato",
+              "olive oil"
+            ],
+            "estimated_cost": 4.7
+          },
+          {
+            "id": "r3",
+            "title": "Veg Stir Fry",
+            "ingredients": [
+              "mixed veg",
+              "soy sauce",
+              "rice"
+            ],
+            "estimated_cost": 5.5
+          },
+          {
+            "id": "r2",
+            "title": "Tomato Pasta",
+            "ingredients": [
+              "pasta",
+              "tomato",
+              "olive oil"
+            ],
+            "estimated_cost": 0
+          },
+          {
+            "id": "r1",
+            "title": "Beans & Rice Bowl",
+            "ingredients": [
+              "rice",
+              "canned beans",
+              "tomato"
+            ],
+            "estimated_cost": 0
+          },
+          {
+            "id": "r3",
+            "title": "Veg Stir Fry",
+            "ingredients": [
+              "mixed veg",
+              "soy sauce",
+              "rice"
+            ],
+            "estimated_cost": 0
+          },
+          {
+            "id": "r3",
+            "title": "Veg Stir Fry",
+            "ingredients": [
+              "mixed veg",
+              "soy sauce",
+              "rice"
+            ],
+            "estimated_cost": 0
+          }
+        ],
+        "estimated_total": 26.6
+      },
+      "last_shopping": {
+        "items": {
+          "pasta": 2,
+          "olive oil": 2,
+          "mixed veg": 3,
+          "soy sauce": 3
+        },
+        "prices": {
+          "pasta": 1.0,
+          "olive oil": 3.0,
+          "mixed veg": 2.0,
+          "soy sauce": 1.0
+        },
+        "estimated_total": 7.0
+      }
+    }
+  }
+}
